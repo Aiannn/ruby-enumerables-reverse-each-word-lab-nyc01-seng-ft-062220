@@ -5,7 +5,7 @@ def reverse_each_word(string)
   string.split.collect do |element|
     newArr.push(element.reverse)
   end 
-  newArr.join(' ')
+  puts newArr.join(' ')
 end   
   
 reverse_each_word(string)  
