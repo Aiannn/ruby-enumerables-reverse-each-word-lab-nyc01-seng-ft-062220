@@ -1,8 +1,9 @@
-string = "Hello how are you?"
+#string = "Hello how are you?"
 def reverse_each_word(string)
   string.split
-  string.split.each do |element|
-    
+  string.split.collect do |element|
+    element.reverse
+  end 
 end   
   
-reverse_each_word(string)  
+#reverse_each_word(string)  
