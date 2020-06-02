@@ -1,8 +1,8 @@
 string = "Hello how are you?"
 def reverse_each_word(string)
-  puts string.split
-  puts string.split.length 
-  puts string.split.class
+  string.split
+  string.split.each do |element|
+    
 end   
   
 reverse_each_word(string)  
